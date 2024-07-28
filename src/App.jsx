@@ -1,17 +1,11 @@
 import './App.css'
-import Dashboard from './Components/Code.jsx';
-import Navbar from './Components/Navbar';
-import Sidebar from './Components/Sidebar.jsx';
-
+import Home from './Home.jsx';
 function App() {
-  return (
-    <>
-     <Navbar/>
-     <div className='flex bg-[#222222]'>
-     <Sidebar/>
-     <Dashboard/>
-     </div>
-    </>
+  return ( 
+   <>
+   <Home/>
+     </>
+     
   );
 }
 
