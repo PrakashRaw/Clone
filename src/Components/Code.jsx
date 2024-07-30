@@ -4,8 +4,8 @@ import CodeEditor from './CodeEditor'
 import { Box } from '@chakra-ui/react';
 
 function Code() {
-  const [htmlCode, setHtmlCode] = useState('<div>Hello, world!</div>');
-  const [cssCode, setCssCode] = useState("")
+  const [htmlCode, setHtmlCode] = useState('<div class="hello">Hello, world!</div>');
+  const [cssCode, setCssCode] = useState(".hello{background-color: red;}")
   const [jsCode, setJsCode] = useState('');
   const iframeRef = useRef(null);
 

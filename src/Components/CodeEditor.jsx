@@ -12,7 +12,7 @@ function CodeEditor({heading, language, value, onChange}) {
     <Box className='font-serif mt-1 text-white w-[600px] p-1'>
       <Box className='flex items-center justify-between'>
         <Box className='flex items-center gap-1'>
-        <span>{heading}</span>
+        <span className='text-green-200'>{heading}</span>
         <IoIosArrowDropdown />
        </Box>
        <Box className='flex items-center gap-2'>
