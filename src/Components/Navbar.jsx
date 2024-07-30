@@ -1,11 +1,9 @@
-import React from 'react'
+import React, { useContext } from 'react';
 import { CiPlay1 } from "react-icons/ci";
 import { HiSaveAs } from "react-icons/hi";
 import { LuMessageSquare } from "react-icons/lu";
 import { GiSettingsKnobs } from "react-icons/gi";
 import { RiFlashlightLine } from "react-icons/ri";
-
-
 
 
 function Navbar() {
@@ -16,7 +14,7 @@ function Navbar() {
             <img  className='w-28 mix-blend-multiply bg-blue-500' src={"logo5.jpg"} alt="" />
             <div className='flex gap-1 items-center'>
             <span><CiPlay1 /></span>
-            <p>run</p>
+            <button>run</button>
             </div>
             <div className='flex gap-1 items-center'>
                 <span><HiSaveAs /></span>
